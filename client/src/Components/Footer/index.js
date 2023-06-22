@@ -27,7 +27,7 @@ const Footer = () => {
       </form>
       <div className="px-3 pt-2 pb-3 text-center text-xs text-gray-100/50 md:px-4 md:pt-3 md:pb-6">
         <a href="#" target="_blank" className="underline">
-          ChatGPT
+          TalentIQ
         </a>
         &nbsp;Created by Savvy Programmer (Ma Yes)
       </div>

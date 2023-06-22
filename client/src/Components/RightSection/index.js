@@ -9,7 +9,7 @@ const RightSection = () => {
           <div className="flex flex-col items-center text-sm h-full md:h-screen bg-lightBlack">
             <div className="text-gray-800 w-full md:max-w-2xl lg:max-w-3xl md:h-full md:flex md:flex-col px-6">
               <h1 className="text-4xl text-gray-100 font-semibold text-center mt-6 sm:mt-[20vh] ml-auto mr-auto mb-10 sm:mb-16">
-                ChatGPT
+                TalentIQ
               </h1>
               <div className="md:flex items-start text-center gap-3.5">
                 {[
