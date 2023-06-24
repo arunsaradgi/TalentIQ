@@ -14,7 +14,6 @@ app.listen(process.env.port,async()=>{
     } catch (error) {
         console.log(error.message)
     }
-
 })
 
 
