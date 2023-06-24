@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { LeftSection, RightSection } from "./Components";
 import { MenuIcon, PlusIcon } from "./constants";
+import Chat from "./Components/Chat/Chat";
 
 export default function App() {
   // Toggle
   const [show, setShow] = useState(false);
   return (
+ 
     <div>
-      <div className="sticky top-0 z-10 flex items-center border-b border-white/20 bg-gray-800 pl-1 pt-1 text-gray-200 sm:pl-3 md:hidden">
+      {/* <div className="sticky top-0 z-10 flex items-center border-b border-white/20 bg-gray-800 pl-1 pt-1 text-gray-200 sm:pl-3 md:hidden">
         <button
           type="button"
           className={`-ml-0.5 -mt-0.5 inline-flex h-10 w-10 items-center outline-none justify-center rounded-md focus:ring-1 focus:ring-white ${
@@ -25,10 +27,11 @@ export default function App() {
       </div>
 
       {/* Left Section */}
-      <LeftSection {...{ show }} />
+      {/* <LeftSection {...{ show }} /> */}
 
       {/* Right Section */}
-      <RightSection />
+      {/* <RightSection /> */}
+      <Chat />
     </div>
   );
 }
